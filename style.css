@@ -1,0 +1,65 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.top-section{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+}.half-width{
+    width: 50%;
+    margin: 2% 6%;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h1 span{
+    color: orange;
+}
+.button-style{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+}
+/* top section end */
+/* dream section start */
+.dream-section{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 100px 0;
+    display: flex;
+}
+/* experience start */
+.experience-section{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp-card{
+    display: flex;
+}
+.half-width2 {
+    padding-left: 2%;
+}
+#exp-shadow1{
+    box-shadow: 5px 15px 40px gray;
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#exp-shadow2{
+    box-shadow: 5px 15px 40px gray;
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, rgb(255, 0, 0), cyan);
+    border-image-slice: 1;
+}
