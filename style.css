@@ -12,7 +12,8 @@ img{
     display: flex;
 }.half-width{
     width: 50%;
-    margin: 2% 6%;
+    margin: 2% 5%;
+    border-radius: 5px;
 }
 h1{
     font-size: 50px;
@@ -20,7 +21,7 @@ h1{
 h2{
     font-size: 40px;
 }
-h1 span{
+h1 span, h3{
     color: orange;
 }
 .button-style{
@@ -48,9 +49,6 @@ h1 span{
 .exp-card{
     display: flex;
 }
-.half-width2 {
-    padding-left: 2%;
-}
 #exp-shadow1{
     box-shadow: 5px 15px 40px gray;
     border-left: 5px solid;
@@ -62,4 +60,11 @@ h1 span{
     border-left: 5px solid;
     border-image: linear-gradient(180deg, rgb(255, 0, 0), cyan);
     border-image-slice: 1;
+}
+/* footer start */
+footer{
+    margin-top: 100px;
+}
+footer p{
+    text-align: center;
 }
