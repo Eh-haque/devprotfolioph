@@ -1,16 +1,18 @@
 body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+    font-family: 'Poppins', sans-serif;margin: 0;
     padding: 0;
 }
 img{
     width: 100%;
 }
+
 .top-section{
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-}.half-width{
+}
+.half-width{
     width: 50%;
     margin: 2% 5%;
     border-radius: 5px;
@@ -67,4 +69,25 @@ footer{
 }
 footer p{
     text-align: center;
+}
+
+/* Media Quyery */
+/* Small Device */
+@media screen and (max-width: 767px) {
+    *{
+    }
+    .top-section, .dream-section, .exp-card{
+        display: block;
+    }
+    .half-width{
+        width: fit-content;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .small-img{
+        margin-top: 5em;
+    }
+    .half-width h1{
+        margin: 0;
+    }
 }
